@@ -1,0 +1,29 @@
+{
+    "keys": [
+        {
+            "EL_key":  "3e5db36a09fd365b81075e32fd757ceb",
+            "OAI_key": "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"
+        }
+    ],
+    "EL_data": [
+        {
+          "voice": "MF3mGyEYCl7XYWbV9V6O"
+        }
+
+    ],
+    "OAI_data": [
+        {
+          "model": "text-davinci-003",
+    
+          "prompt": "you are a helpful assistant, tech related keywords will often be presented to you",
+          
+
+          "temperature": 0.9,
+            "max_tokens": 124,
+            "top_p": 1,
+            "frequency_penalty": 1,
+            "presence_penalty": 1
+        }
+
+    ]
+}
