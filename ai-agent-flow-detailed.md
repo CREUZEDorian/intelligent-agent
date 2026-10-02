@@ -16,12 +16,14 @@ flowchart LR
         D
         E
         H
-        I
         J
     end
 
     subgraph Server["Backend (FastAPI)"]
         F
         G
+    end
+    subgraph TTS["TTS server"]
+        I
     end
 ```
