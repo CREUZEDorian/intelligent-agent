@@ -1,5 +1,5 @@
 ```mermaid
-flowchart TD
+flowchart LR
     A([User speaks]) --> B[Capture audio<br/>microphone input]
     B --> C{Voice activity<br/>detected?}
     C -- No --> B
@@ -18,6 +18,7 @@ flowchart TD
         C
         D
         E
+        H
         I
         J
     end
@@ -25,6 +26,5 @@ flowchart TD
     subgraph Server["Backend (FastAPI)"]
         F
         G
-        H
     end
 ```
